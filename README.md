@@ -1,0 +1,1 @@
+This example demonstrates a common JavaScript error stemming from loose comparison using the == operator.  The function is intended to return 0 when the input is null, but it fails to correctly handle undefined which leads to NaN (Not a Number) as a result.  The solution showcases how to use strict equality (===) to avoid this pitfall.
